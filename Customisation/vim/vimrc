@@ -1,3 +1,76 @@
+  1 set nocompatible              " required
+  2 filetype off                  " required
+  3
+  4 " set the runtime path to include Vundle and initialize
+  5 set rtp+=~/.vim/bundle/Vundle.vim
+  6 call vundle#begin()
+  7
+  8 " alternatively, pass a path where Vundle should install plugins
+  9 "call vundle#begin('~/some/path/here')
+ 10
+ 11 " let Vundle manage Vundle, required
+ 12 Plugin 'gmarik/Vundle.vim'
+ 13
+ 14 " add all your plugins here (note older versions of Vundle
+ 15 " used Bundle instead of Plugin)
+ 16
+ 17 " ...
+ 18
+ 19 " All of your Plugins must be added before the following line
+ 20 call vundle#end()            " required
+ 21 filetype plugin indent on    " required
+ 22
+ 23
+ 24
+ 25 " Sections:
+ 26 "    -> General
+ 27 "    -> VIM user interface
+ 28 "    -> Colors and Fonts
+ 29 "    -> Files and backups
+ 30 "    -> Text, tab and indent related
+ 31 "    -> Visual mode related
+ 32 "    -> Moving around, tabs and buffers
+ 33 "    -> Status line
+ 34 "    -> Editing mappings
+ 35 "    -> vimgrep searching and cope displaying
+ 36 "    -> Spell checking
+ 37 "    -> Misc
+ 38 "    -> Helper functions
+ 39 "
+ 40 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ 41
+ 42
+ 43 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ 44 " => General
+ 45 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ 46
+ 47 autocmd vimenter * NERDTree
+ 48
+ 49 " Sets how many lines of history VIM has to remember
+"vimrc" 402L, 9727Cset nocompatible              " required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" add all your plugins here (note older versions of Vundle
+" used Bundle instead of Plugin)
+
+" ...
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
+
 " Sections:
 "    -> General
 "    -> VIM user interface
